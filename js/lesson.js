@@ -127,7 +127,7 @@ const displayWord = (words) => {
         // create element and add innerHTML
         const wordCard = document.createElement('div');
         wordCard.innerHTML = `
-        <div class="word-card bg-[#FFFFFF] rounded-xl shadow-sm text-center max-w-[547px] w-full h-[300px] p-14">
+        <div class="word-card bg-[#FFFFFF] rounded-xl shadow-sm text-center max-w-[547px] w-full md:h-[300px] p-14">
 
                 <!-- word-card-content -->
                 <div class="word-card-content space-y-[24px]">
