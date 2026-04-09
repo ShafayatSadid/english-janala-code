@@ -30,11 +30,9 @@ A simple educational web project for learning basic English concepts. This proje
 ```bash
 git clone https://github.com/ShafayatSadid/english-janala-code.git
 cd english-janala-code
-npm install
-npm start
 ```
 
-> If you do not use `npm start`, you can also open `index.html` directly in your browser.
+> Since Tailwind CSS is loaded via CDN in `index.html`, no installation is required. Simply open `index.html` directly in your browser.
 
 ## Links
 
